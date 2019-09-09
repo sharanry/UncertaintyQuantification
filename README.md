@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 #### Sigma Analysis Discontinuous regression using Bayesian Neural Networks
 ![](./images/sigma_ci.png)
-*Fig 1(a): 95\% confidence interval of the models trained over varying prior $\sigma$. Red crosses denote the data samples, blue dots represent the mean predictions and the blue fill expressed the 95\% CI.*
+*Fig 1(a): 95\% confidence interval of the models trained over varying prior σ. Red crosses denote the data samples, blue dots represent the mean predictions and the blue fill expressed the 95\% CI.*
 
 ![](./images/sigma_ess.png)
 *Fig 1(b): Box plot of log of effective sample size of posterior samples of weights at each layer*
