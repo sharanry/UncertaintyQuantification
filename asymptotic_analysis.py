@@ -47,7 +47,10 @@ N, D_X, D_H = args["num_data"], 1, args["num_hidden"]
 # GENERATE ARTIFICIAL DATA
 X, Y, X_test = get_data(functions, ranges, num_samples=5000)
 mean = X.mean()
+print("Normalising Mean = " + str(mean))
+
 X = X/mean
+
 X, Y = shuffle(X, Y)
 
 

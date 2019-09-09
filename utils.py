@@ -11,6 +11,7 @@ from numpyro.handlers import seed, substitute, trace
 from numpyro.hmc_util import initialize_model
 from numpyro.mcmc import mcmc
 from numpyro import sample
+import numpyro
 from numpy import linalg as LA
 from jax import device_get
 from sklearn.utils import shuffle

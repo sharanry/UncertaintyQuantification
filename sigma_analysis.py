@@ -140,7 +140,7 @@ for i  in range(len(samples_collected)):
     for patch in bplot['boxes']:
         patch.set_facecolor("lightblue")
     
-    ax[i].set(ylabel="log ESS", title="n = " + str(samples_collected[i][0]))
+    ax[i].set(ylabel="log ESS", title="σ = " + str(samples_collected[i][0]))
     ax[i].title.set_size(30)
     ax[i].xaxis.label.set_size(30)
     ax[i].yaxis.set_label("neff")
