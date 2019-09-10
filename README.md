@@ -1,6 +1,6 @@
 # Connection between Uncertainty Quantification and Gaussian Prior Parameters
 
-Supplementary code for the paper on *Connection between Uncertainty Quantification and Gaussian Prior Parameters* submitted to *Bayesian Deep Learning workshop at NeurIPS'19*.
+Supplementary code for the paper on *Connection between Uncertainty Quantification and Gaussian Prior Parameters*.
 
 ### Prerequisites
  - [Python3](https://www.python.org/download/releases/3.0/)
