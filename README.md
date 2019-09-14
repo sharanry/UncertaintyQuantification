@@ -19,27 +19,27 @@ python3 -m virtualenv env
 source ./env/bin/activate
 pip install -r requirements.txt
  ```
- - Run the two two scripts two reproduce results.
+ - Run the two scripts two reproduce results.
  ```bash
  python asymptotic_analysis.py
  python sigma_analysis.py
  ``` 
- - The plots generated will be available in `./results`.
+ - The generated plots will be available in `./results`.
  
 ### Results
 
-#### Sigma Analysis Discontinuous regression using Bayesian Neural Networks
+#### Sigma analysis discontinuous regression using Bayesian neural networks
 ![](./images/sigma_ci.png)
-*Fig 1(a): 95\% confidence interval of the models trained over varying prior σ. Red crosses denote the data samples, blue dots represent the mean predictions and the blue fill expressed the 95\% CI.*
+*Fig 1(a): 95% confidence interval of the models trained over varying prior σ. Red crosses denote the data samples, blue dots represent the mean predictions and the blue fill expresses the 95% CI.*
 
 ![](./images/sigma_ess.png)
-*Fig 1(b): Box plot of log of effective sample size of posterior samples of weights at each layer*
+*Fig 1(b): Effective sample size of weights posterior samples at each layer in logarithmic scale.*
 
-#### Asymptotic analysis of discontinuous regression using Bayesian Neural Networks
+#### Asymptotic analysis of discontinuous regression using bayesian neural networks
 ![](./images/asymp_ci.png)
 *Fig 2(a): 95
-% confidence interval of the models trained over varying data sample sizes. Red crosses denote the data samples with prior σ = 1.0, blue dots represent the mean predictions and the blue fill expressed the 95% CI.*
+% confidence interval of the models trained over varying data sample sizes. Red crosses denote the data samples with prior σ = 1.0, blue dots represent the mean predictions and the blue fill expresses the 95% CI.*
 
 ![](./images/asymp_ess.png)
-*Fig 2(b): Box plot of log of effective sample size of posterior samples of weights at each layer*
+*Fig 2(b): Effective sample size of weights posterior samples at each layer in logarithmic scale.*
 
