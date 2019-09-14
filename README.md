@@ -13,13 +13,13 @@ Supplementary code for the paper on *Connection between Uncertainty Quantificati
 git clone https://github.com/sharanry/UncertaintyQuantification
 cd UncertaintyQuantification
  ```
- - Make new `virtualenv` environment and install dependencies from `requirements.txt`
+ - Make a new `virtualenv` environment and install dependencies from `requirements.txt`
  ```bash
 python3 -m virtualenv env
 source ./env/bin/activate
 pip install -r requirements.txt
  ```
- - Run the two scripts two reproduce results.
+ - Run the two scripts to reproduce results.
  ```bash
  python asymptotic_analysis.py
  python sigma_analysis.py
@@ -28,7 +28,7 @@ pip install -r requirements.txt
  
 ### Results
 
-#### Sigma analysis discontinuous regression using Bayesian neural networks
+#### Sigma analysis of discontinuous regression using Bayesian neural networks
 ![](./images/sigma_ci.png)
 *Fig 1(a): 95% confidence interval of the models trained over varying prior σ. Red crosses denote the data samples, blue dots represent the mean predictions and the blue fill expresses the 95% CI.*
 
