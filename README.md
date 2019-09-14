@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ![](./images/sigma_ess.png)
 *Fig 1(b): Effective sample size of weights posterior samples at each layer in logarithmic scale.*
 
-#### Asymptotic analysis of discontinuous regression using bayesian neural networks
+#### Asymptotic analysis of discontinuous regression using Bayesian neural networks
 ![](./images/asymp_ci.png)
 *Fig 2(a): 95
 % confidence interval of the models trained over varying data sample sizes. Red crosses denote the data samples with prior σ = 1.0, blue dots represent the mean predictions and the blue fill expresses the 95% CI.*
